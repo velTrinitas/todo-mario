@@ -1,0 +1,153 @@
+
+
+body {
+  background-image: linear-gradient(120deg, #f6d365 0%, #49bedb 100%);
+  color: white;
+  font-family: 'Roboto', "Times New Roman";
+  min-height: 100vh;
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+  list-style: none;
+  }
+
+ nav {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   font-family: 'Roboto';
+   min-height: 10vh;
+   background: #071a52;
+   color: white;
+ }
+
+ .nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  }
+
+.lists-elements {
+  list-style: none;
+  font-family: 'Roboto';
+}
+
+.form-input {
+  padding: 0.3rem;
+  font-size: 1.2rem;
+  font-family: 'Roboto';
+  border: none;
+  background: white;
+  color: #086972;
+  align-content: center;
+  margin: 0.0px;
+  height: 40px;
+ }
+
+ .form-input-count {
+  padding: 0.3rem;
+  font-size: 1.2rem;
+  border: none;
+  background: white;
+  color: #086972;
+  align-content: center;
+  margin: 0px 5px 0px 0px;
+  height: 40px;
+  position: relative;
+  right: 20px;
+ }
+
+ .form-todo {
+  padding: 0.3rem;
+  font-size: 1.2rem;
+  border: none;
+  background: white;
+  color: #086972;
+  align-content: center;
+  margin: 0.0px;
+  height: 40px;
+  position: relative;
+  left: 40px;
+  width: 380px;
+ }
+
+ .form-filter {
+  padding: 0.3rem;
+  font-size: 1.2rem;
+  align-content: center;
+  margin: 5px;
+  display: inline-block;
+ }
+
+.form-button {
+  color: #086972;
+  background: #f7fffe;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 9px 8px 6px 8px;
+  font-size: 1.2rem;
+  border: none;
+  background: white;
+  align-content: center;
+  margin: 0.0px;
+  
+}
+
+.tasks {
+  color: #086972;
+  font-size: 1.2rem;
+  border: 1px #086972;
+  align-content: left;
+  text-align: left;
+  margin: 0 0 0 300px;
+  
+}
+
+
+.icons {
+    vertical-align: middle;
+  }
+
+.form-button:hover {
+  background: #086972;
+  color: white;
+}
+
+.delete-button {
+  color: #ff6f47;
+  background: #f7fffe;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 8px 8px 6px 8px;
+  font-size: 1.2rem;
+  border: none;
+  background: white;
+  align-content: center;
+  margin: 0.0px;
+  
+}
+
+.delete-button:hover {
+  background: #ff6f47;
+  color: white;
+}
+
+
+.row {
+  display: inline-block;
+}
+
+/*CUSTOM SELECTOR */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background-image: none;
+}
+
